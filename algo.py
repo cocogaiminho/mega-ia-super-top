@@ -21,4 +21,4 @@ st.bar_chart(
     )
 
 print("top")
-print('69')
+print('70')
