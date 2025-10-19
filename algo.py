@@ -1,7 +1,19 @@
-print('coco')
-print('do libreloto')
-print('para a aline')
+import streamlit as st
+import pandas as pd
 
-print('minha sanidade é = 0')
-print('oi')
+
+# Cria um DataFrame com dados de exemplo
+df = pd.DataFrame({
+    "m": ["A", "B"],
+    "n": [100, 20]
+
+})
+
+# Exibe o gráfico
+st.bar_chart(
+    data=df, 
+    x="m", 
+    y="n", 
+    
+    )
 
