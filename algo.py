@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
+import tensorflow as tf
 
+model_caminho = "C:\Users\felip\OneDrive\Documentos\converted_keras"
+model = tf.keras.models.load_models(model_caminho)
 
 # Cria um DataFrame com dados de exemplo
 df = pd.DataFrame({
@@ -17,3 +20,4 @@ st.bar_chart(
     
     )
 
+print("top")
