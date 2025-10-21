@@ -20,5 +20,4 @@ st.bar_chart(
     
     )
 
-print("top")
-print('70')
+
